@@ -1,0 +1,83 @@
+body{
+    background-image: url(../img/shiny_white_bg.jpg);
+}
+
+#main-wrapper{
+    display: flex;
+    border: solid black 1px;
+    border-radius: 1rem;
+    padding: 50px;
+    gap: 120px;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#game-header-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#etch-a-sketch-icon{
+    height: 100px;
+    width: auto;
+    display: flex;
+    margin-right: 20px;
+}
+
+#sketch-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.each-row-div:first-child{
+    border-top: solid black 1px;
+}
+
+.each-row-div{
+    
+    width: 480px;
+    /*
+    height: 25px;
+    */
+    display: flex;
+    border: solid black 1px;
+    border-right: none;
+    border-top: none;
+}
+
+.etch-sketch-grid{
+    border-right: solid black 1px;
+    /*
+    height: 25px;
+    width: 25px;
+    */
+    display: flex;
+    flex-direction: row;
+}
+
+.etch-sketch-grid.hovered{
+    background-color: black;
+}
+
+#sketch-form-grid-slider-span{
+    color: maroon;
+}
+
+#sketch-form-wrapper{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.sketch-form-divs{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sketch-form-reset-btn{
+    font-size: 20px;
+}

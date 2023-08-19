@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Etch-a-Sketch</title>
+        <link rel="icon" type="image/x-icon" href="img/art_favicon.png">
+        <link rel="stylesheet" type="text/css" href="css/sketch.css">
+        <script src="js/sketch.js"></script>
+    </head>
+    
+    <body>
+        <div id = 'game-header-wrapper'>
+            <img src="img/canvas.png" alt="Canvas Icon" id ="etch-a-sketch-icon">
+            <h1>Etch-a-Sketch</h1>
+        </div>
+        <div id = 'main-wrapper'>  
+            <div id = 'sketch-form-wrapper'>
+                <form >
+                    <div class="sketch-form-divs">
+                        <span id="sketch-form-grid-slider-span">Current Grid Size: <span id="sketch-form-grid-slider-value-span">16 X 16</span></span>
+                    </div>
+                    <div class="sketch-form-divs">
+                        <label for="sketch-form-grid-slider">Select your grid size:</label>
+                        <input type="range" min="1" max="100" value="16" class="slider" id="sketch-form-grid-slider">
+                    </div>
+                    <div class="sketch-form-divs">
+                        <p>Marker Color Type:</p>
+                        <input type="radio" id="marker-color-type-simple" name="sketch-marker-type" value="simple" checked>
+                        <label for="marker-color-type-simple">Simple</label>
+                        <input type="radio" id="marker-color-type-random" name="sketch-marker-type" value="random">
+                        <label for="marker-color-type-random">Random</label>
+                    </div>
+                    <br>
+                    <div class="sketch-form-divs">
+                        <button type = "button" id= "sketch-form-reset-btn">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div id = 'sketch-wrapper'>
+
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <!--Image Attributions
+            <a href="https://www.flaticon.com/free-icons/drawing" title="drawing icons">Drawing icons created by Freepik - Flaticon</a>
+            <a href="https://www.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_8038877.htm#query=light%20white%20background&position=27&from_view=search&track=ais">Image by starline</a> on Freepik
+            <a href="https://www.freepik.com/icon/art_1048944#fromView=search&term=artist&page=1&position=36">Icon by Freepik</a>
+        -->
+    </footer>
+</html>
